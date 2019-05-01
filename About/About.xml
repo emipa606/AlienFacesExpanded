@@ -3,61 +3,27 @@
   <name>AlienFacesExpanded</name>
   <author>Diamonddragon41</author>
   <url></url>
-  <targetVersion>1.0.0</targetVersion>
+  <supportedVersions><li>1.0</li></supportedVersions>
   <description>
     Original mod by Killface
     1.0 Update by InsertKey (thank you!)
+	Big Thanks to Hauvega for the new Patching system!!!
     
 	 One of the things I found lacking in Alien Faces was that only one hand type was available- human. The main bulk of this mod is adding alien hands 
    and feet to bipedal aliens. I aim to do much more with the mod as it progresses, but I had enough work done I thought some people might like it. 
 
-    Xenn, Orassans, Racc, and Beast Men Tribe Raccoon, Fox, Lynx, Bear and Wolf -- digitigrade paws and claw hand
-	  Avian Races, Avail                                                          -- raptor feet and feather wing arm
+    Digitigrade paws + claw hand ----------------Xenn, Orassans, Racc, Ferian, Ferrex, Logann, Gnolls, and Beast Men Tribe RaccoonMan, FoxMan, LynxMan, BearMan and WolfMan
+	Raptor feet + feather wing arm----------------Avian Races, Avail 
+	Horse hoof + hoof hand-------------------------Equium
+	Elephant toes + thick hand---------------------Beast Men Tribes ElephantMan
+	Camel hoof + hoof hand------------------------Beast Men Tribes CamelMan
+	Goat hoof + hoof hand--------------------------Beast Men Tribes GazelleMan, PigMan, ElkMan
+	Human feet + human hand--------------------Ni'Hal, Zabrak, Twi'lek, Chjees Androids, FTL Rockman, FTL Zoltan, FantasyGoblin
+	Human feet+hand, Facial Stuff Faces------Callistan
+	Mantis legs+mantis claw-----------------------FTL Mantis
+	No feet + human hand--------------------------FTL Slug
+	Robot feet + robot hand------------------------FTL Engie
 
-
-    If any types of hands and feet are super non-canon to their body parts defs ingame, tell me and I might fix it if it's a bad enough mistake. I kind of used my imagination, lol.
-
-    ----Limitation: hands and feet are bundled together and cannot be mixed and matched-- this is due to how Killiface wrote the code to only look for the handType name,
-    even when looking for feet. -------
-
-    To-do List:
-
-    Priority to-dos:
-    Beast Men Tribe camel                                                 -- camel hoof and hoof-finger hand
-    Beast Men Tribe gazelle                                               -- gazelle hoof and hoof-finger hand
-    Beast Men Tribe elephant                                              -- elephant toes and thick finger hand
-    Beast Men Tribe pig and elk                                           -- goat hoof and hoof-finger hand
-    Equium                                                                -- horse hoof and hoofnhand
-    Twi'lek, Android, Zabrak                                              -- human hands and feet (retexture)
-    Ni'hal                                                                --if someone can tell me what type of feet they have I can make it!! I have no idea though
-
-    1)Hands and feet for requested races!
-      a)bug leg feet and bug leg hands
-      b)bug leg feet and mantis hands
-      b)reptilian feet
-      c)flipper hands 
-      d)octopus tentacle arms and feet
-      e)any types of hooves I missed lol
-      f)crystal/rock hands and feet
-      g)ni'hal hands and feet???
-
-    (Need permission from mod owners for these to-dos:) 
-      2)Make modified versions of certain Race textures that are eyeless, tailless, earless, so Facial Stuff eyes/tails/ears can be put on them
-      3)Make a Tails section of Alien Addon Parts (which killiface left a framework for) and give Xenn, Avali, Racc, Equium Tails seperate from their body so it 
-      draws on top of clothes and bounces(copy orassans?)
-      4)Make an Ears section of Alien Addon Parts and give Xenn, Racc, Beast Men ears so they draw on top of clothes and bounce (copy orassans?)
-      
-
-    To-Try List: (Not guaranteed-- I am a novice programmer! If any coding god wants to help me with this I would be eternally grateful!) 
-    1)Make hands have North, South, East sprites like feet do. Currently they ONLY use the south sprite which makes certain hands (especially wings) look goofy,
-    especially from the front view. 
-    2)Patch the Added Parts system to where peg legs show as wooden pegs-- not as metal feet. 
-    3) (unlikely)Make missing fingers actually show up as missing upon the sprites of the hand
-    4)Make missing ears actually show up as missing on the sprites of the head when they are addon parts
-    5) (unlikely) make feet and hands mix and matchable/ add footType parameter in .xml
-    6)Make an ingame config where you can choose the hand n'feet set and other xml options for a race, so you don't have to open the xml and reload to edit them.
-
-    I am open to requests but keep in mind I am super novice coder and might not be able to do it unless it's just .xml stuff or making textures. 
-    The request type I am most open to is to add an alien to the mod!!! I want to cover as many aliens as possible.
+   
   </description>
 </ModMetaData>

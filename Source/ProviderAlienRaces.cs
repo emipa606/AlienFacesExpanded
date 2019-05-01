@@ -10,15 +10,14 @@ using Verse;
 
 namespace AlienFaces
 {
-    public class ProviderAlienRaces
+    public static class ProviderAlienRaces
     {
-        protected static Dictionary<ThingDef_AlienRace, AlienRace> lookup = new Dictionary<ThingDef_AlienRace, AlienRace>();
+        public static Dictionary<ThingDef_AlienRace, AlienRace> lookup = new Dictionary<ThingDef_AlienRace, AlienRace>();
 
         [CanBeNull]
         public static AlienRace GetAlienRace(ThingDef_AlienRace def, Pawn p)
         {
-            AlienRace result;
-            if (lookup.TryGetValue(def, out result))
+            if (lookup.TryGetValue(def, out AlienRace result))
             {
                 return result;
             }
@@ -150,7 +149,7 @@ namespace AlienFaces
             return result;
         }
 
-        protected static object GetFieldValue(ThingDef raceDef, object source, string name, bool allowNull = false)
+        public static object GetFieldValue(ThingDef raceDef, object source, string name, bool allowNull = false)
         {
             try
             {
@@ -181,7 +180,7 @@ namespace AlienFaces
             }
         }
 
-        protected static ICollection GetFieldValueAsCollection(ThingDef raceDef, object source, string name)
+        public static ICollection GetFieldValueAsCollection(ThingDef raceDef, object source, string name)
         {
             object result = GetFieldValue(raceDef, source, name, true);
             if (result == null)
@@ -199,7 +198,7 @@ namespace AlienFaces
             return collection;
         }
 
-        protected static bool? GetFieldValueAsBool(ThingDef raceDef, object source, string name)
+        public static bool? GetFieldValueAsBool(ThingDef raceDef, object source, string name)
         {
             object result = GetFieldValue(raceDef, source, name, true);
             if (result == null)
@@ -216,7 +215,7 @@ namespace AlienFaces
             return null;
         }
 
-        protected static string GetFieldValueAsString(ThingDef raceDef, object source, string name)
+        public static string GetFieldValueAsString(ThingDef raceDef, object source, string name)
         {
             object value = GetFieldValue(raceDef, source, name, true);
             if (value == null)
